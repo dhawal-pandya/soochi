@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Soochi</title>
+
+  <!-- Tailwind -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Vintage fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Libre+Baskerville&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Libre Baskerville', serif;
+      background: #f4ecd8; /* parchment */
+    }
+    h1, h2 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+
+<body class="text-stone-800">
+
+  <div class="max-w-3xl mx-auto px-6 py-12">
+
+    <!-- Header -->
+    <header class="border-b border-stone-400 pb-6 mb-10">
+      <h1 class="text-4xl tracking-wide">Soochi</h1>
+      <p class="text-sm mt-2 italic text-stone-600">
+        A simple list of things I have coded.
+      </p>
+    </header>
+
+    <!-- Dynamic List -->
+    <main class="space-y-10">
+  <section>
+    <h2 class="text-2xl mb-4 border-b border-stone-300 pb-2">Tools</h2>
+    <div id="tools-list" class="space-y-6"></div>
+  </section>
+
+  <section>
+    <h2 class="text-2xl mb-4 border-b border-stone-300 pb-2">Toys</h2>
+    <div id="toy-list" class="space-y-6"></div>
+  </section>
+</main>
+    <!-- Footer -->
+    <footer class="mt-16 pt-6 border-t border-stone-400 text-xs text-stone-500">
+      Maintained quietly • Built with ❤️ by <a href="https://dhawal-pandya.github.io" target="_blank" class="text-stone-600 hover:underline">Dhawal Pandya</a>
+    </footer>
+
+  </div>
+<script>
+  const toolsContainer = document.getElementById('tools-list');
+  const toyContainer = document.getElementById('toy-list');
+
+  fetch('./assets/data.json')
+    .then(res => res.json())
+    .then(data => {
+      data.projects.forEach(p => {
+        const a = document.createElement('a');
+
+        a.href = p.url;
+        a.target = "_blank";
+        a.className = "block border border-stone-300 p-5 rounded hover:bg-stone-100 transition";
+
+        a.innerHTML = `
+          <h2 class="text-xl">${p.name}</h2>
+          <p class="text-sm text-stone-600 mt-1">${p.description}</p>
+        `;
+
+        // route by type
+        if (p.type === "tool") {
+          toolsContainer.appendChild(a);
+        } else {
+          toyContainer.appendChild(a);
+        }
+      });
+    });
+</script>
+
+</body>
+</html>

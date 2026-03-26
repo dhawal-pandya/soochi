@@ -1,0 +1,118 @@
+{
+  "projects": [
+    {
+    "name": "LumAPI",
+    "description": "API visualiser",
+    "url": "https://dhawal-pandya.github.io/lumapi/",
+    "type": "tool"
+    },
+    {
+    "name": "Encode Decode (base64)",
+    "description": "A simple tool to encode and decode base64 strings",
+    "url": "https://dhawal-pandya.github.io/encode-decode-js/",
+    "type": "tool"
+    },
+    {
+      "name": "Diff Checker",
+      "description": "A simple tool to compare two texts and highlight the differences",
+      "url": "https://dhawal-pandya.github.io/Diff-Checker/",
+      "type": "tool"
+    },
+    {
+      "name": "Number Convertor",
+      "description": "Converts numbers between different bases",
+      "url": "https://dhawal-pandya.github.io/Number-Convertor/",
+      "type": "tool"
+    },
+    {
+      "name": "Hisab",
+      "description": "Splitwise clone on frontend",
+      "url": "https://dhawal-pandya.github.io/hisab/",
+      "type": "tool"
+    },
+    {
+      "name": "Aeonis",
+      "description": "An observability platform designed to provide deep, AI-powered insights into your applications",
+      "url": "https://github.com/dhawal-pandya/aeonis",
+      "type": "tool"
+    },
+    {
+      "name": "NeatTrace",
+      "description": "A lightweight log formatter that prettifies JSON logs in real-time",
+      "url": "https://github.com/dhawal-pandya/NeatTrace",
+      "type": "tool"
+    },
+    {
+      "name": "Fynd",
+      "description": "A command-line utility inspired by grep",
+      "url": "https://github.com/dhawal-pandya/Fynd",
+      "type": "tool"
+    },
+    {
+      "name": "Murl",
+      "description": "A command-line utility inspired by cURL",
+      "url": "https://github.com/dhawal-pandya/Murl",
+      "type": "tool"
+    },
+    {
+      "name": "SpringStorm",
+      "description": "Weather App",
+      "url": "https://dhawal-pandya.github.io/SpringStorm/",
+      "type": "tool"
+    },
+    {
+      "name": "RaktaVruksha",
+      "description": "My family tree",
+      "url": "https://dhawal-pandya.github.io/RaktaVruksha/",
+      "type": "toy"
+    },
+    {
+      "name": "Pokedex",
+      "description": "A real working pokedex, with data fetched from pokeapi.co",
+      "url": "https://dhawal-pandya.github.io/Pokedex/",
+      "type": "toy"
+    },
+    {
+      "name": "Game of Life",
+      "description": "Conway's Game of Life Visualiser, with a web-based interface for visualization",
+      "url": "https://dhawal-pandya.github.io/Game-Of-Life/",
+      "type": "toy"
+    },
+    {
+      "name": "Leap Years list",
+      "description": "Visualisation of all leap years",
+      "url": "https://dhawal-pandya.github.io/leap-years/",
+      "type": "toy"
+    },
+    {
+      "name": "DeltaLight",
+      "description": "Converts all distances into units of lightspeed",
+      "url": "https://dhawal-pandya.github.io/DeltaLight/",
+      "type": "toy"
+    },
+    {
+      "name": "Collatz",
+      "description": "just maths of collatz conjecture",
+      "url": "https://github.com/dhawal-pandya/collatz",
+      "type": "toy"
+    },
+    {
+      "name": "Asteroids",
+      "description": "Pilot your ship, shoot bullets, and destroy asteroids while avoiding collisions",
+      "url": "https://github.com/dhawal-pandya/Asteroids",
+      "type": "toy"
+    },
+    {
+      "name": "Rock Paper Scissors",
+      "description": "Play the classic game of Rock, Paper, Scissors against your browser",
+      "url": "https://dhawal-pandya.github.io/Rock-Paper-Scissors/",
+      "type": "toy"
+    },
+    {
+      "name": "Game of Life in Go",
+      "description": "Conway's Game of Life implemented in Go",
+      "url": "https://github.com/dhawal-pandya/Game-Of-Life-Go",
+      "type": "toy"
+    }
+  ]
+}
