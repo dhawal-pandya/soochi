@@ -1,16 +1,16 @@
 {
   "projects": [
     {
-    "name": "LumAPI",
-    "description": "API visualiser",
-    "url": "https://dhawal-pandya.github.io/lumapi/",
-    "type": "tool"
+      "name": "LumAPI",
+      "description": "API visualiser",
+      "url": "https://dhawal-pandya.github.io/lumapi/",
+      "type": "tool"
     },
     {
-    "name": "Encode Decode (base64)",
-    "description": "A simple tool to encode and decode base64 strings",
-    "url": "https://dhawal-pandya.github.io/encode-decode-js/",
-    "type": "tool"
+      "name": "Encode Decode (base64)",
+      "description": "A simple tool to encode and decode base64 strings",
+      "url": "https://dhawal-pandya.github.io/encode-decode-js/",
+      "type": "tool"
     },
     {
       "name": "Diff Checker",
@@ -71,7 +71,7 @@
       "description": "Timeline of Sharks",
       "url": "https://dhawal-pandya.github.io/sharktime/",
       "type": "toy"
-    }
+    },
     {
       "name": "Pokedex",
       "description": "A real working pokedex, with data fetched from pokeapi.co",
