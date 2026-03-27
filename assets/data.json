@@ -67,6 +67,12 @@
       "type": "toy"
     },
     {
+      "name": "SharkTime",
+      "description": "Timeline of Sharks",
+      "url": "https://dhawal-pandya.github.io/sharktime/",
+      "type": "toy"
+    }
+    {
       "name": "Pokedex",
       "description": "A real working pokedex, with data fetched from pokeapi.co",
       "url": "https://dhawal-pandya.github.io/Pokedex/",
