@@ -21,14 +21,13 @@ Projects are grouped into: - **Tools** --- things built with purpose -
 
     .
     ├── index.html
-    └── assets/
-        └── data.json
+    └── data.json
 
 ------------------------------------------------------------------------
 
 ## Adding a project
 
-Edit `assets/data.json`:
+Edit `data.json`:
 
 ``` json
 {

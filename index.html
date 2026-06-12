@@ -3,7 +3,11 @@
   <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Soochi (सूची) — a simple list of things Dhawal Pandya has coded. Tools built with purpose, toys built out of curiosity."/>
   <title>Soochi</title>
+
+  <!-- Favicon (emoji) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📜</text></svg>">
 
   <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
@@ -16,7 +20,7 @@
       font-family: 'Libre Baskerville', serif;
       background: #f4ecd8; /* parchment */
     }
-    h1, h2 {
+    h1, h2, h3 {
       font-family: 'Playfair Display', serif;
     }
   </style>
@@ -64,10 +68,11 @@
 
         a.href = p.url;
         a.target = "_blank";
+        a.rel = "noopener";
         a.className = "block border border-stone-300 p-5 rounded hover:bg-stone-100 transition";
 
         a.innerHTML = `
-          <h2 class="text-xl">${p.name}</h2>
+          <h3 class="text-xl">${p.name}</h3>
           <p class="text-sm text-stone-600 mt-1">${p.description}</p>
         `;
 
@@ -78,6 +83,9 @@
           toyContainer.appendChild(a);
         }
       });
+    })
+    .catch(() => {
+      toolsContainer.innerHTML = '<p class="text-sm text-stone-500 italic">Could not load the list.</p>';
     });
 </script>
 

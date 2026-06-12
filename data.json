@@ -61,6 +61,24 @@
       "type": "tool"
     },
     {
+      "name": "Aaje Jamva Ma Su Banavu?",
+      "description": "What shall we cook today? Suggests Gujarati dishes based on the time of day, season, and the Panchang",
+      "url": "https://dhawal-pandya.github.io/aaje-jamva-ma-su-banavu/",
+      "type": "tool"
+    },
+    {
+      "name": "Mokshapat",
+      "description": "The Game of Liberation by Shri Gulabrao Maharaj, the ancient Indian spiritual ancestor of Snakes & Ladders",
+      "url": "https://dhawal-pandya.github.io/Mokshapat/",
+      "type": "toy"
+    },
+    {
+      "name": "Guess in 10",
+      "description": "Just a guessing game for my niece and nephew",
+      "url": "https://dhawal-pandya.github.io/guess_in_10/",
+      "type": "toy"
+    },
+    {
       "name": "RaktaVruksha",
       "description": "My family tree",
       "url": "https://dhawal-pandya.github.io/RaktaVruksha/",
