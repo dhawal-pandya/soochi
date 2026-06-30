@@ -79,6 +79,12 @@
       "type": "toy"
     },
     {
+      "name": "Matsyalok",
+      "description": "Real-time agent-based simulation of emergent collective behaviour — prey, predators, and shepherds across a full trophic sandbox, with player-possessable creatures",
+      "url": "https://dhawal-pandya.github.io/Matsyalok/",
+      "type": "toy"
+    },
+    {
       "name": "RaktaVruksha",
       "description": "My family tree",
       "url": "https://dhawal-pandya.github.io/RaktaVruksha/",
