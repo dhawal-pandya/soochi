@@ -143,6 +143,12 @@
       "description": "Conway's Game of Life implemented in Go",
       "url": "https://github.com/dhawal-pandya/Game-Of-Life-Go",
       "type": "toy"
+    },
+    {
+      "name": "Kolam",
+      "description": "Kolam Rangolis",
+      "url": "https://github.com/dhawal-pandya/kolam",
+      "type": "toy"
     }
   ]
 }
