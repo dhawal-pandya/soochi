@@ -85,6 +85,12 @@
       "type": "toy"
     },
     {
+      "name": "Kolam",
+      "description": "Kolam Rangolis",
+      "url": "dhawal-pandya.github.io/kolam/",
+      "type": "toy"
+    },
+    {
       "name": "RaktaVruksha",
       "description": "My family tree",
       "url": "https://dhawal-pandya.github.io/RaktaVruksha/",
@@ -142,12 +148,6 @@
       "name": "Game of Life in Go",
       "description": "Conway's Game of Life implemented in Go",
       "url": "https://github.com/dhawal-pandya/Game-Of-Life-Go",
-      "type": "toy"
-    },
-    {
-      "name": "Kolam",
-      "description": "Kolam Rangolis",
-      "url": "https://github.com/dhawal-pandya/kolam",
       "type": "toy"
     }
   ]
